@@ -63,7 +63,7 @@ cs_add_library(mpc_solver
   model/quadrotor_mpc_codegen/acado_auxiliary_functions.c)
 
 target_include_directories(mpc_solver PUBLIC
-  model/quadrotor_mpc_codegen/
+  model/quadrotor_mpc_codegen
   externals/qpoases
   externals/qpoases/INCLUDE
   externals/qpoases/SRC)
